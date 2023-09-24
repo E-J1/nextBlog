@@ -1,4 +1,5 @@
-import post1 from "@/assets/posts/post1.jpg";
+// import post1 from "@/assets/posts/post1.jpg";
+import post1 from "@/assets/avatars/avatar1.webp";
 import post2 from "@/assets/posts/post2.jpg";
 // import post3 from "@/assets/posts/post3.jpg";
 // import post4 from "@/assets/posts/post4.jpg";
@@ -9,7 +10,7 @@ export const POSTS = [
     likes: 133,
     created_at: "3 hours ago",
     author: 0,
-    description: "The steak turned out great 😊🥩",
+    description: "Cute beast 😊",
     image: post1,
   },
   {
