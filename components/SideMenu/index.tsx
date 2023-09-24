@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import logo from "assets/logo.png";
-export default function SideMenu({ children }: { children: JSX.Element }) {
+export default function SideMenu({ children }: { children: React.ReactNode }) {
   return (
     <section className="md:flex p-5">
       <div className="image-wrapper  md:max-w-xs md:p-5">
