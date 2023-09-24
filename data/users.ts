@@ -1,6 +1,6 @@
-import avatar1 from "assets/avatars/avatar1.jpg";
-import avatar2 from "assets/avatars/avatar2.jpg";
-import avatar3 from "assets/avatars/avatar3.jpg";
+import avatar1 from "assets/avatars/avatar1.webp";
+// import avatar2 from "assets/avatars/avatar2.jpg";
+// import avatar3 from "assets/avatars/avatar3.jpg";
 
 import { IUsers } from "data/interfaces/users.interface";
 

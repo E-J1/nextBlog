@@ -1,7 +1,7 @@
 import post1 from "@/assets/posts/post1.jpg";
 import post2 from "@/assets/posts/post2.jpg";
-import post3 from "@/assets/posts/post3.jpg";
-import post4 from "@/assets/posts/post4.jpg";
+// import post3 from "@/assets/posts/post3.jpg";
+// import post4 from "@/assets/posts/post4.jpg";
 
 export const POSTS = [
   {
