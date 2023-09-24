@@ -11,7 +11,7 @@
 // import vacation4 from "@/assets/stories/vacation4.jpg";
 // import vacation5 from "@/assets/stories/vacation5.jpg";
 
-export const STORIES = [
+export const STORIES: any[] = [
   // {
   //   id: 0,
   //   author: 0,
