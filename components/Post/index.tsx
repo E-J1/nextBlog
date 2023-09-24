@@ -29,11 +29,11 @@ const Post = ({ author, image, likes, description, created_at }: PostProps) => {
         <BsThreeDots className="text-black text-lg md:text-xl" />
       </div>
 
-      <div className="min-h-[320px] overflow-x-hidden w-full mb-3">
+      <div className="overflow-x-hidden w-full mb-3">
         <Image
           src={image}
           alt=""
-          className="w-full min-h-[320px] object-cover object-center"
+          className="w-full object-cover object-center"
         />
       </div>
 

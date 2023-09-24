@@ -40,11 +40,15 @@ const StoryBubble = ({
       <div className={isPost ? "flex flex-row w-full " : ""}>
         <div
           className={`wrapper-color-box ${width} ${height} gradient rounded-full p-[3px] mb-1 ${
-            isPost && "mr-2 w-full"
-          } ${!isPost && "md:w-20 md:h-20"}`}
+            isPost ? "mr-2 w-full shrink-0" : "md:w-20 md:h-20"
+          }`}
         >
           <div className="inner-profile-image w-full h-full rounded-full overflow-hidden">
-            <Image src={imgUrl} alt="" className="w-full h-full rounded-full" />
+            <Image
+              src={imgUrl}
+              alt=""
+              className="w-full h-full rounded-full object-cover"
+            />
           </div>
         </div>
 
